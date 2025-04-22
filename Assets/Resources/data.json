@@ -1,0 +1,28 @@
+{
+    "levelInfo":[
+      {
+        "ImageName": "Castle",
+        "Title": "Magic Kingdom",
+        "Str": 40,
+        "Stm": 120,
+        "Int": 22
+
+      },
+      {
+        "ImageName": "Desert",
+        "Title": "Shifting Sands",
+        "Str": 100,
+        "Stm": 90,
+        "Int": 50
+
+      },
+      {
+        "ImageName": "Forest",
+        "Title": "Auburn Maze",
+        "Str": 90,
+        "Stm": 110,
+        "Int": 420
+
+      }
+  ]
+}
