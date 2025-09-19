@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 
 [Serializable]
-public class LevelInfo 
+public class LevelInfo
 {
     public Sprite Sprite;
     public string Title;
@@ -21,16 +21,16 @@ public class LevelInfo
 }
 
 [Serializable]
+public class LevelInfoDatabase {
+    public LevelInfoData[] levelInfo;
+}
+
+[Serializable]
 public class LevelInfoData
 {
     public string ImageName;
     public string Title;
     public int Str;
     public int Stm;
-    public int Int; 
-}
-
-[Serializable]
-public class LevelInfoDatabase {
-    public LevelInfoData[] levelInfo;
+    public int Int;
 }
